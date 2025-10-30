@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.pge{
+    width: 49.4%;
+    height: 500px;
+    margin-top: 10px;
+}
+.pge1{
+    background-image: url('https://www.apple.com/v/home/ch/images/promos/airpods-pro-3/promo_airpodspro_3__f6xmza7bglei_small_2x.jpg');
+    background-size: cover;
+    background-position: center;
+}
+section{
+    display: flex;
+    gap: 10px;
+}
+.pge1{
+    text-align: center;
+    line-height: 28px;
+    padding: 40px 0;
+}
+.pge1 h2{
+    font-size: 30px;
+}
+.pge1 h3{
+    font-size: 20px;
+}
+button{
+    padding: 10px 24px;
+    background-color: rgb(23, 182, 245);
+    color: white;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-right: 20px;
+    border: none;
+    cursor: pointer;
+}
