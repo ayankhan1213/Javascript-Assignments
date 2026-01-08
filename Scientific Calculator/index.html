@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="calculator">
+            <div class="calName">
+                <div class="fCHild">
+                    <h2>CASIO</h2>
+                </div>
+                <div class="secChild">
+                    <span>fx-570EX</span>
+                </div>
+            </div>
+            <div class="input">
+                <input id="display" disabled value="0" type="text">
+            </div>
+            <div class="part">
+                <div class="part1">
+                    <button onclick="sqrt('√')">√</button>
+                    <button onclick="square('²')">x²</button>
+                    <button onclick="pow()">^</button>
+                    <button onclick="cube('³')">x³</button>
+                    <button onclick="perce('%')">%</button>
+                </div>
+                <div class="part2">
+                    <button onclick="press('(')">(</button>
+                    <button onclick="press(')')">)</button>
+                    <button onclick="sin('sin')">sin</button>
+                    <button onclick="cos('cos')">cos</button>
+                    <button onclick="tan('tan')">tan</button>
+                </div>
+            </div>
+            <div class="button">
+                <div class="firstButt">
+                    <button onclick="press('7')">7</button>
+                    <button onclick="press('8')">8</button>
+                    <button onclick="press('9')">9</button>
+                    <button onclick="del()" style="background-color: #336ee4; color: white; font-weight: 400;">DEL</button>
+                    <button onclick="clearAll()" style="background-color: #336ee4; color: white; font-weight: 400;">AC</button>
+                </div>
+                <div class="SecButt">
+                    <button onclick="press('4')">4</button>
+                    <button onclick="press('5')">5</button>
+                    <button onclick="press('6')">6</button>
+                    <button onclick="press('*')">x</button>
+                    <button onclick="press('/')">÷</button>
+                </div>
+                <div class="thirdButt">
+                    <button onclick="press('1')">1</button>
+                    <button onclick="press('2')">2</button>
+                    <button onclick="press('3')">3</button>
+                    <button onclick="press('+')">+</button>
+                    <button onclick="press('-')">-</button>
+                </div>
+
+                <div class="fourButt">
+                    <button onclick="press('0')">0</button>
+                    <button onclick="press('.')" style="font-weight: 900;">.</button>
+                    <button onclick="PI('π')" style="font-size: 13px;">π</button>
+                    <button onclick="zero()">00</button>
+                    <button onclick="equ()">=</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
